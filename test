@@ -1,0 +1,7 @@
+echo "# 20220225iskrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Maaarkooo/20220225iskrepo.git
+git push -u origin main
