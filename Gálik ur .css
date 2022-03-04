@@ -1,0 +1,52 @@
+body {
+	background: linear-gradient(-45deg, #67e257, #e7eb10, #075875, #e27f0d);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+  
+  
+  
+ #d4 {
+ 
+	color: white;
+ 
+}
+ 
+  #d6{
+	width:400px;/*szélesség*/
+	height:500px;/*magasság*/
+	float:left;/*balra úsztatás*/
+	/*Legyen a belső margó mindenütt 5px (paddin) a szöveg távolságát jelenti a széltől*/
+	padding:5px;
+	margin-right:5px;
+	margin-top:10px;
+
+  }
+
+  
